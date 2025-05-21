@@ -8,7 +8,7 @@ public class mergesort {
         ms.sort(inputArr);
 
         for(int i : inputArr){
-            System.out.println(i + " ");
+            System.out.print(i + " ");
         }
     }
 
