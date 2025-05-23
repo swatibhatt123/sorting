@@ -28,9 +28,9 @@ public class heapsort
   }
 
   void heapify(int[] arr, int n, int i){
-    int largest =i;
-    int li=2*i+1;
-    int ri=2*i+2;
+    int largest =i;    // index of root node
+    int li=2*i+1;      //index of left node
+    int ri=2*i+2;      //index of right node
 
     if(li<n && arr[li] > arr[largest])
     {
